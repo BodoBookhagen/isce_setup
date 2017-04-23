@@ -1,6 +1,8 @@
 ### Setup ISCE on an installed system
 cd ~
+
 wget https://repo.continuum.io/miniconda/Miniconda3-latest-Linux-x86_64.sh
+
 bash Miniconda3-latest-Linux-x86_64.sh
 
 Use default installation location and I suggest to add Miniconda3 install location to PATH variable. You may to rerun ~/.bashrc or logout/login to get net path settings
