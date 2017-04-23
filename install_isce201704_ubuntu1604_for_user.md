@@ -27,7 +27,7 @@ mkdir .isce
 
 Copy isceenv_20170403 to ~/.isce/.isceenv_20170403 (*NOTE* the '.') and edit the directory containing ISCE (if necessary):
 ```
-cp isce_processing/isceenv_20170403 ~/.isce/.isceenv_20170403
+cp isce_setup/isceenv_20170403 ~/.isce/.isceenv_20170403
 ```
 
 
