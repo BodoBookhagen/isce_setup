@@ -6,14 +6,14 @@ Note that giant.yml is a modified version from David Bekaert's github site https
 ```
 cd ~
 conda config --add channels https://conda.anaconda.org/conda-forge
-conda env create -f isce_processing/giant.yml
+conda env create -f isce_setup/giant.yml
 ```
 
 ## Setup GIAnT environment ~/.isce/.giantenv
 Edit giantenv to match your local giant installation, e.g., edit GIANT_DIR
 ```
 cd ~
-cp isce_processing/giantenv .isce/.giantenv
+cp isce_setup/giantenv .isce/.giantenv
 ```
 
 ## Add alias to ~/.bashrc
