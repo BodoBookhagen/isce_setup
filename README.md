@@ -3,11 +3,11 @@ These guides and scripts only work when you have installed the full ISCE suite (
 
 The installation scripts describe how to setup the python environments for ISCE and GIAnT on servers that already have ISCE installed.
 
-# Setup ISCE
+## Setup ISCE
 Clone the repository into isce_setup.
 Start with [install_isce201704_ubuntu1604_for_users.md](install_isce201704_ubuntu1604_for_users.md) and follow instructions
 
-# Setup GIAnT
+## Setup GIAnT
 You will need to setup ISCE first.
 
 Start with [install_giant_ubuntu1604_for_users.md](install_giant_ubuntu1604_for_users.md) and follow instructions
