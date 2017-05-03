@@ -12,9 +12,10 @@ source ~/.bashrc
 ```
 
 ## Install environment for ISCE
-Use isce_processing/isce_201704.yml for setting up conda. Note that isce_201704.yml is a modified version from David Bekaert's github site https://github.com/dbekaert in directory isce_notes/Ubuntu/isce_201609.yml
+Use isce_processing/isce_201704.yml for setting up conda. Note that isce_201704.yml is a modified version from David Bekaert's github site https://github.com/dbekaert in directory isce_notes/Ubuntu/isce_201609.yml. Clone this repository and create a conda environment:
 ```
 cd ~
+git clone https://github.com/BodoBookhagen/isce_setup.git
 conda env create -f isce_setup/isce_201704.yml
 ```
 
@@ -39,8 +40,11 @@ alias start_isce="source activate isce_201704; source ~/.isce/.isceenv_20170403"
 
 
 ## Start and test ISCE environment with:
+At first run, you may have to install pulp if you want to use the 2stage solver.
+
 ```
 start_isce
+pip install pulp 
 insarApp.py --help --steps
 topsApp.py --help
 ```
