@@ -11,7 +11,7 @@ Use default installation location and I suggest to add Miniconda3 install locati
 source ~/.bashrc
 ```
 
-## Install environment for ISCE 2.1.0
+## Install environment for ISCE 2.2.0
 Make sure that conda is part of your path (if you didn't run `source ~/.bashrc` then `run 'export PATH=/home/bodo/miniconda3/bin:$PATH'`).
 
 Use isce_processing/isce_201708.yml for setting up conda. Note that isce_201708.yml is a modified version from David Bekaert's github site https://github.com/dbekaert in directory isce_notes/Ubuntu/isce_201609.yml. Clone this repository and create a conda environment:
@@ -28,9 +28,9 @@ cd ~
 mkdir .isce
 ```
 
-Copy isceenv_201708 to ~/.isce/.isceenv_201708 (*NOTE* the '.') and edit the directory containing ISCE (if necessary):
+Copy isceenv_201807 to ~/.isce/.isceenv_201807 (*NOTE* the '.') and edit the directory containing ISCE (if necessary):
 ```
-cp isce_setup/isceenv_201708 ~/.isce/.isceenv_201708
+cp isce_setup/isceenv_201807 ~/.isce/.isceenv_201807
 ```
 
 
@@ -46,6 +46,7 @@ At first run, you may have to install pulp if you want to use the 2stage solver.
 
 ```
 start_isce
+conda install opencv
 pip install pulp 
 insarApp.py --help --steps
 topsApp.py --help

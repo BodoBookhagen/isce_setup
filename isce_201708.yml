@@ -39,7 +39,7 @@ dependencies:
 - lxml=3.6.4=py35_0
 - matplotlib=1.5.1=np111py35_0
 - munch=2.0.4=py35_0
-- nomkl=1.0=0
+- nomkl
 - numpy=1.11.1=py35_nomkl_0
 - openblas=0.2.14=4
 - openssl=1.0.2h=1
@@ -74,7 +74,7 @@ dependencies:
 - xerces-c=3.1.4=0
 - xz=5.2.2=0
 - zlib=1.2.8=3
-- scipy=0.19.0=np111py35_0
+- scipy
 - pandas
 - cython
 - pip:
