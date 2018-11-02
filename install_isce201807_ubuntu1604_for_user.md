@@ -18,7 +18,7 @@ Use isce_processing/isce_201708.yml for setting up conda. Note that isce_201708.
 ```
 cd ~
 git clone https://github.com/BodoBookhagen/isce_setup.git
-conda env create -f isce_setup/isce_201708.yml
+conda env create -f isce_setup/isce_201808.yml
 ```
 
 
