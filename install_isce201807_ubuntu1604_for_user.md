@@ -18,7 +18,7 @@ Use isce_processing/isce_201708.yml for setting up conda. Note that isce_201708.
 ```
 cd ~
 git clone https://github.com/BodoBookhagen/isce_setup.git
-conda env create -f isce_setup/isce_201808.yml
+conda env create -f isce_setup/isce_201807.yml
 ```
 
 
@@ -30,14 +30,14 @@ mkdir .isce
 
 Copy isceenv_201807 to ~/.isce/.isceenv_201807 (*NOTE* the '.') and edit the directory containing ISCE (if necessary):
 ```
-cp isce_setup/isceenv_201808 ~/.isce/.isceenv_201808
+cp isce_setup/isceenv_201807 ~/.isce/.isceenv_201807
 ```
 
 
 ## Add aliases to ~/.bashrc
 Edit .bashrc and add this line to allow easy start.
 ```
-alias start_isce="source activate isce_201808; source ~/.isce/.isceenv_201808"
+alias start_isce="source activate isce_201807; source ~/.isce/.isceenv_201807"
 ```
 
 
