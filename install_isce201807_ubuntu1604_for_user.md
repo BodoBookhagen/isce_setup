@@ -30,14 +30,14 @@ mkdir .isce
 
 Copy isceenv_201807 to ~/.isce/.isceenv_201807 (*NOTE* the '.') and edit the directory containing ISCE (if necessary):
 ```
-cp isce_setup/isceenv_201807 ~/.isce/.isceenv_201807
+cp isce_setup/isceenv_201808 ~/.isce/.isceenv_201808
 ```
 
 
 ## Add aliases to ~/.bashrc
 Edit .bashrc and add this line to allow easy start.
 ```
-alias start_isce="source activate isce_201708; source ~/.isce/.isceenv_201708"
+alias start_isce="source activate isce_201808; source ~/.isce/.isceenv_201808"
 ```
 
 
