@@ -1,4 +1,4 @@
-name: isce_201708
+name: isce_201808
 channels:
 - defaults
 dependencies:
